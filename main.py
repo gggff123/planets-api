@@ -54,4 +54,4 @@ def home():
 def gen_plante():
     planet_temprature=random.randint(1,1000)
     planet_gravity=random.randint(10,100)
-    return {"Planet":random.choice(planet_names),"Temperature":str(planet_temprature)+"℃","Gravity":str(planet_gravity)+"g","Atmosphere":random.choice(planet_atmosphere)}
+    return {"Planet":random.choice(planet_names),"Temperature":str(planet_temprature)+"℃","Gravity":str(planet_gravity)+"g","Atmosphere":random.choice(planet_atmosphere),"Life":random.choice(life)}
